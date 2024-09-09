@@ -3,10 +3,12 @@
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 import { getDatabase } from "firebase/database";
+import {  EXPO_PUBLIC_FIREBASE_KEY } from '@env';
+
 
 // Configuration for Firestore
 const firestoreConfig = {
-  apiKey: process.env.EXPO_PUBLIC_FIREBASE_KEY,
+  apiKey: EXPO_PUBLIC_FIREBASE_KEY,
   authDomain: "farmer-buddy-35a78.firebaseapp.com",
   projectId: "farmer-buddy-35a78",
   storageBucket: "farmer-buddy-35a78.appspot.com",

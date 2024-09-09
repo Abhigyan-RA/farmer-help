@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "farmer-help",
-    "slug": "farmer-help",
+    "name": "KisaanSeva",
+    "slug": "farmhelper",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,7 +13,12 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.abhigyanranjan.farmhelper",
+      "infoPlist": {
+        "UIBackgroundModes": ["fetch", "remote-notification"],
+        "NSUserTrackingUsageDescription": "This identifier will be used to track your activity."
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -50,9 +55,9 @@
         "origin": false
       },
       "eas": {
-        "projectId": "cde3d6c7-ab1c-4fb7-b267-469138eea1b1"
+        "projectId": "c137965a-6749-4b06-bfbd-21dd6e7e7f8c"
       }
     },
-    "owner": "vincetq"
+    "owner": "abhigyanranjan"
   }
 }

@@ -4,14 +4,14 @@ import React, { useEffect, useState } from "react";
 import { ImageBackground, StyleSheet } from "react-native";
 import { Bubble, GiftedChat } from "react-native-gifted-chat";
 import Colors from "./../../constants/Colors";
-
+import {EXPO_PUBLIC_GEMINI_KEY} from '@env';
 
 
 export default function Chat() {
   const {user} = useUser()
   const [messages , setMessages] = useState([])
   const [loading ,setLoading] = useState(false)
-  const apiKey = process.env.EXPO_PUBLIC_GEMINI_KEY ;
+  const apiKey = EXPO_PUBLIC_GEMINI_KEY ;
 
   
   const handelSend = async(newMessages = [])=>{

@@ -5,7 +5,7 @@ import * as Location from "expo-location"; // Import expo-location
 import React, { useEffect, useState } from "react";
 import { ActivityIndicator, StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import Colors from "../constants/Colors";
-
+import {EXPO_PUBLIC_WEATHER_KEY} from '@env';
 export default function Weather() {
   const [weatherData, setWeatherData] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -14,7 +14,7 @@ export default function Weather() {
   
 
   useEffect(() => {
-    const apiKey = process.env.EXPO_PUBLIC_WEATHER_KEY;
+    const apiKey = EXPO_PUBLIC_WEATHER_KEY;
 
     const fetchWeatherData = async (latitude, longitude) => {
       const apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&units=metric&appid=${apiKey}`;

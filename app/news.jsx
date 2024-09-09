@@ -12,8 +12,8 @@ import {
   View,
 } from "react-native";
 import Colors from "../constants/Colors";
-
-const apiKey = process.env.EXPO_PUBLIC_NEWS_KEY;
+import {EXPO_PUBLIC_NEWS_KEY} from '@env';
+const apiKey = EXPO_PUBLIC_NEWS_KEY;
 const pageSize = 3; // Set to 3 to ensure at least 3 items per page
 
 export default function News() {
