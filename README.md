@@ -189,7 +189,7 @@ Start the app
 
 ## Authors
 
-- [@DivyaGoel]()
+- [@DivyaGoel](https://github.com/mysticalcodes)
 - [@AbhigyanRanjan](https://github.com/Abhigyan-RA)
 - [@YashPandey](https://github.com/Yash16p)
 - [@AmanSingh](https://github.com/aman-singh73)
