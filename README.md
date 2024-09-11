@@ -9,9 +9,9 @@ This comprehensive app offers farmers a range of tools to optimize their farming
 
 ## Screenshots and Photos
 
-![App Home Page](Visuals/app-1.jpg)  ![App Alert](Visuals/alert.jpg)
+![App Home Page](Visuals/app-1.jpg)  ![App Alert](Visuals/alert.jpg)  ![App Irrigation Prediction](Visuals/app-2.jpg) ![Appp disease predictor](Visuals/app-4.jpg)
 
-![App Screenshot](Visuals/PCP.jpg)
+![IOT photo](Visuals/PCP.jpg)
 
 # Project Goal:
 
